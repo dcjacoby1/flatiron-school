@@ -43,4 +43,8 @@ Challenges
 // 2. Replace the <strong> element with a newly created one.
 
 
+function displaylist(){
+    const dates = querySelector(#dates);
+    let
 
+}

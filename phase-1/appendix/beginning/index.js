@@ -24,7 +24,7 @@ Takeaways
 
 // ~ First-Class Citizens
 // A **first-class** object or **citizen** is one that has every capability a language has to offer.
-// In JavaScript, functions are first-class citizens. - you can do every action with a function
+ // In JavaScript, functions are first-class citizens. - you can do every action with a function
 
 // ~ Compilation and Execution
 // During **compilation**, JavaScript allocates memory for your code, and understands its scope(s).
