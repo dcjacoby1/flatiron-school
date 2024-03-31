@@ -43,8 +43,57 @@ Challenges
 // 2. Replace the <strong> element with a newly created one.
 
 
-function displaylist(){
-    const dates = querySelector(#dates);
-    let
+//1
+function displayList(name, array) {
+    const books = document.querySelector('#dates');
+    const heading = document.createElement('h2');
+    heading.textContent = name;
+    books.append(heading);
+    const ul = document.createElement('ul');
+    array.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        ul.append(li);
 
-}
+
+    });
+
+    books.append(ul);
+
+};
+
+
+//2
+const author = document.createElement("italic");
+author.textContent = "Dan Jacoby";
+document.querySelector('strong').replaceWith(author);
+
+
+
+
+
+
+
+//Write a function named displayList that takes a name and an array,
+//    and appends a list to #dates. For example, given "Books" and "The Shining",
+//    the function should append to #dates something like:
+//        Books
+//        • The Shining
+
+
+
+
+// function displayList(name, array) {
+//     const books = document.querySelector('#dates');
+//     const header = books.createElement('h2');
+//     header.textContent = name;
+//     const ul = document.createElement('ul');
+//     array.forEach(element => {
+//         const li = document.createElement('li');
+//         li.textContent = element;
+//         ul.append(li);  
+//     });
+//     header.append(ul);
+
+// };
+    

@@ -81,4 +81,4 @@ document.querySelector("form").addEventListener("submit", event => {
         li.textContent = pokemon.name;
         document.querySelector("#pokemon").append(li);
     });
-})
+});

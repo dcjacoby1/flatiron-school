@@ -40,6 +40,16 @@ Core Deliverables
 // 2. Write a function named `double` that takes an array of `numbers` and doubles each of its values.
 // 3. Write a function named `lowercase` that takes an array of `words` and returns a lowercased copy.
 
+// function sum(array) {
+//     let total = 0
+//     array.forEach(num => num += total)
+//     return total
+// }
+
+
+
+
+
 
 //function that take
 
