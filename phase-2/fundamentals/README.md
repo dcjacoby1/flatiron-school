@@ -41,8 +41,9 @@ _Parcel_ is zero-configuration build tool, which means it offers no opinion on h
 
 1. `cd` into an empty project directory.
 2. Run `npm init` to create a `package.json` file.
-3. Run `npm install react react-dom` to install React.
-4. Run `npm install --save-dev parcel` to install Parcel.
+3. Run `npm install react react-dom` to install React (package manager).
+
+4. Run `npm install --save-dev parcel` to install Parcel (build tool).
 5. Create HTML, JS, and JSX entry points:
 ```html
 <!DOCTYPE html>

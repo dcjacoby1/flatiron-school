@@ -1,0 +1,19 @@
+{
+  "name": "par",
+  "version": "1.0.0",
+  "description": "A starter Parcel project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan J",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

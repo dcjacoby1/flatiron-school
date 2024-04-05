@@ -19,3 +19,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+//only can pass a prop or useState as a useEffect dependency
+//include any props that the callback function involves

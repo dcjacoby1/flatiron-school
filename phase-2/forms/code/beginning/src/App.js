@@ -4,7 +4,7 @@ Phase 2 -> Forms
 By Sakib Rasul
 
 Core Deliverables
-1. Refactor <Form> into a "controlled" form.
+1. Refactor <Form> into a "controlled" form. (add props - make it dynamic)
 2. Add "Your lucky number is X!" after the two fields, where X is dependent on the two fields.
 3. Handle form submissions by appending the new user to a local array.
 4. Render the array as a list of members in `Form`.
@@ -13,6 +13,9 @@ Core Deliverables
 */
 
 import Form from './Form';
+import {useState} from "react"
+
+  
 
 function App() {
   return (
@@ -26,3 +29,4 @@ function App() {
 }
 
 export default App;
+//
